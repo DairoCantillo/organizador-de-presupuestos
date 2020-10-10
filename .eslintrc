@@ -1,0 +1,11 @@
+{
+  "plugins": ["prettier"],
+  "extends": ["airbnb", "airbnb/hooks", "prettier", "prettier/react"],
+  "rules": {
+    "prettier/prettier": ["error"],
+    "react/prop-types": 0
+  },
+  "globals": {
+    "document": true
+  }
+}
