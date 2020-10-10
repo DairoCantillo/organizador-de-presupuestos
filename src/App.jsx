@@ -20,7 +20,7 @@ const App = () => {
     }
     setRestante(presupuestoRestante(restante, gasto.cantidad));
     setCrearGasto(false);
-  }, [gasto, gastos, crearGasto]);
+  }, [gasto]);
 
   const showPregunta = () => (
     <Pregunta
